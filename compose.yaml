@@ -1,0 +1,16 @@
+services:
+  python-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai-speech-studio-dev
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+      - python-cache:/root/.cache
+      - model-cache:/root/.cache/huggingface
+    command: ["sleep", "infinity"]
+
+volumes:
+  python-cache:
+  model-cache:

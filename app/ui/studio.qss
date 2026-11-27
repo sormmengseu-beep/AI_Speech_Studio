@@ -1,0 +1,121 @@
+#studio {
+    background: #121925;
+}
+#navigation {
+    background: #0e1520;
+    border-right: 1px solid #283547;
+}
+QLabel {
+    color: #e8eef6;
+}
+QLabel#brand {
+    color: #f3f7fc;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 8px;
+}
+QLabel#heading {
+    color: #f4f7fc;
+    font-size: 32px;
+    font-weight: 700;
+}
+QLabel#muted, QLabel#status {
+    color: #aebcd0;
+}
+QLabel#cardTitle {
+    font-size: 18px;
+    font-weight: 700;
+}
+QLabel#fieldLabel {
+    color: #dce6f3;
+    font-weight: 600;
+}
+QFrame#card {
+    background: #192332;
+    border: 1px solid #2a384b;
+    border-radius: 13px;
+}
+QLineEdit, QPlainTextEdit, QComboBox, QComboBox QAbstractItemView {
+    background: #111a27;
+    color: #eef4fd;
+    border: 1px solid #39495e;
+    border-radius: 7px;
+    padding: 8px 10px;
+    selection-background-color: #285d64;
+    selection-color: #ffffff;
+    placeholder-text-color: #a0aec2;
+}
+QPlainTextEdit {
+    padding: 10px;
+}
+QLineEdit:focus, QPlainTextEdit:focus, QComboBox:focus {
+    border-color: #54d6c1;
+}
+QPushButton {
+    background: #253347;
+    color: #edf4ff;
+    border: 1px solid #40516a;
+    border-radius: 7px;
+    padding: 8px 13px;
+    font-weight: 600;
+}
+QPushButton:hover {
+    background: #304259;
+}
+QPushButton:focus {
+    border-color: #70e6d2;
+}
+QPushButton:pressed {
+    background: #1b2939;
+}
+QPushButton:disabled {
+    background: #1d2938;
+    color: #8797ad;
+    border-color: #2d3a4c;
+}
+QPushButton#primary {
+    background: #67dcc7;
+    color: #0f2528;
+    border-color: #67dcc7;
+    padding: 10px 14px;
+}
+QPushButton#primary:hover {
+    background: #94eddd;
+}
+QPushButton#primary:focus {
+    border-color: #e4fff9;
+}
+QPushButton#primary:pressed {
+    background: #4bbca9;
+}
+QPushButton#primary:disabled {
+    background: #233f43;
+    color: #9cb8bc;
+    border-color: #2e5256;
+}
+QPushButton#navigationButton {
+    text-align: left;
+    background: transparent;
+    border: 1px solid transparent;
+    color: #b8c5d7;
+    padding: 11px 12px;
+}
+QPushButton#navigationButton:hover {
+    background: #1d2a3a;
+}
+QPushButton#navigationButton:checked {
+    background: #203b42;
+    border-color: #305a62;
+    color: #a7f5e7;
+}
+QPushButton#navigationButton:focus {
+    border-color: #70e6d2;
+}
+QProgressBar {
+    border: 0;
+    border-radius: 2px;
+    background: #2d3e52;
+}
+QProgressBar::chunk {
+    background: #67dcc7;
+}

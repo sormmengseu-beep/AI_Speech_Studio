@@ -1,0 +1,9 @@
+PySide6
+faster-whisper
+edge-tts
+google-genai
+pydub
+srt
+soundfile
+numpy
+requests
